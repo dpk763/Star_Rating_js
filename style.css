@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4DFE6;
+}
+
+.container{
+    height: 200px;
+    width: 300px;
+    background-color: #013B45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.btn{
+    background:none;
+    border: none;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 80px;
+}
